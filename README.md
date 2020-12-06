@@ -7,6 +7,7 @@ I have my main configuration from my typescript projects
 
 <ol> 
   first i use "yarn add eslint -D" to add eslint as dev
+  later i use "yarn eslint --init" to init the project
   <li>"To check syntax, find problems, and enforce code style"</li>
   <li>JavaScript modules (import/export)</li>
   <li>None (because it is nodejs project)</li>
