@@ -3,4 +3,5 @@ Project Configuration
 
 I have my main configuration from my typescript projects
 
-I use eslint and prettier to do my scripy nice
+# I use Eslint and Prettier to do my scripy nice
+
