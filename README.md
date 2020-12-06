@@ -22,9 +22,9 @@ I have my main configuration from my typescript projects
 after i use <b>"yarn add eslint-import-resolver-typescript -D"</b> because eslint not check about typescript files]
 
 added it in .eslintrc.json
-...
-"import/resolver": {
-      "typescript": {
 
-      }
-...
+> "import/resolver": {
+>      "typescript": {
+>
+>      }
+
