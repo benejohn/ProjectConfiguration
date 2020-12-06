@@ -23,6 +23,8 @@ after i use <b>"yarn add eslint-import-resolver-typescript -D"</b> because eslin
 
 added it in .eslintrc.json to work this one
 
-> import/extensions
-> "import/resolver" 
+> "import/extensions" and "import/resolver" 
 
+and add Prettier
+
+> "yarn add -D prettier eslint-config-prettier eslint-plugin-prettier"
