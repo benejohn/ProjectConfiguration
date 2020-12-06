@@ -5,7 +5,9 @@ I have my main configuration from my typescript projects
 
 ## I use Eslint and Prettier to do my script nice
  
- first i use <b>"yarn add eslint -D"</b> to add eslint as dev
+ <b>first use we need to create editorconfig directly in visual studio code to make the code standardized</b>
+ 
+ Use <b>"yarn add eslint -D"</b> to add eslint as dev
 <ol> 
   later i use <b>"yarn eslint --init"</b> to init the project
   <li>"To check syntax, find problems, and enforce code style"</li>
