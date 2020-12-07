@@ -30,3 +30,9 @@ added it in .eslintrc.json to work this one
 and add Prettier
 
 > "yarn add -D prettier eslint-config-prettier eslint-plugin-prettier"
+
+## Configuration of Debugger in VSCODE
+
+changed "name" to "Debug" but it is random
+
+changed "request" to "attach" because attach will work at project running
