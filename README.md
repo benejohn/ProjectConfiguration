@@ -44,3 +44,17 @@ and added ' "restart": true ' to reload project
 install "yarn add -D ts-node-dev" to reload project, --inspect to Debbuger in VsCode, --transpile-only to do fast script and --ignore-watch to ignore node_modules 
 
 >  "dev:server": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/server.ts"
+
+
+# DockerConfiguration
+
+<ol>
+  <li>You need to go from docker website and download and install</li>
+  <li>Search in google "docker postgres"</li>
+  <li>"docker run --name gostack_postgres -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres" to install a container of postgres in docker</li>
+  <li>"docker ps" to check if container is working(active). About check all container in machine "docker ps -a"</li>
+  <li>"docker logs IDFromMachine" to check logs and problems</li>
+  <li>"docker stop IDFromMachine" to stop container</li>
+  <li>"docker start (IDFromMachine || Name)" example "docker start postgres"</li>
+  <li>Install Dbeaver or Postbird to check about Database projects</li>
+</ol>
