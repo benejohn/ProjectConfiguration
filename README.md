@@ -43,4 +43,4 @@ and added ' "restart": true ' to reload project
 
 install "yarn add -D ts-node-dev" to reload project, --inspect to Debbuger in VsCode, --transpile-only to do fast script and --ignore-watch to ignore node_modules 
 
-> ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/server.ts
+>  "dev:server": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/server.ts"
