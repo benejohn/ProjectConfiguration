@@ -36,3 +36,11 @@ and add Prettier
 changed "name" to "Debug" but it is random
 
 changed "request" to "attach" because attach will work at project running
+
+and added ' "restart": true ' to reload project
+
+### line of package.json to work everything
+
+install "yarn add -D ts-node-dev" to reload project, --inspect to Debbuged in VsCode, --transpile-only to do fast script and --ignore-watch to ignore node_modules 
+
+> ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/server.ts
