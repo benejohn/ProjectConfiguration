@@ -58,3 +58,9 @@ install "yarn add -D ts-node-dev" to reload project, --inspect to Debbuger in Vs
   <li>"docker start (IDFromMachine || Name)" example "docker start postgres"</li>
   <li>Install Dbeaver or Postbird to check about Database projects</li>
 </ol>
+
+# TypeORM
+
+1. "https://typeorm.io/" getting started and "Using ormconfig.json"
+2. install typeorm and database drive(postgres, mysql). Example: "yarn add typeorm pg"
+3. Create folder database in src and do index.ts with imports from typeorm { createConnection }
