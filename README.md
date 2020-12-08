@@ -64,3 +64,14 @@ install "yarn add -D ts-node-dev" to reload project, --inspect to Debbuger in Vs
 1. "https://typeorm.io/" getting started and "Using ormconfig.json"
 2. install typeorm and database drive(postgres, mysql). Example: "yarn add typeorm pg"
 3. Create folder database in src and do index.ts with imports from typeorm { createConnection }
+
+> "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
+
+added this in package.json at scripts to do migrations with js because we are in project with ts
+
+We use "yarn typeorm migration:create -n (name of table)" to do the file to do modifications in database. Up is the updagred and down to downgrade 
+Example 
+"yarn typeorm migration:create -n CreateAppointments"
+
+We use "yarn typeorm migration:run" to execute the migrations in database.
+
