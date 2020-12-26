@@ -6,6 +6,7 @@ Project Configuration
 First run docker and use that command to create a database
 example:
 
+> you need check port of database
 > docker run --name nameOfProject -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
 
 I have my main configuration from my typescript projects
