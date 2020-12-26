@@ -1,15 +1,6 @@
 # ProjectConfiguration
 Project Configuration
 
-## To create a Docker Intance, only if need a database
-
-First run docker and use that command to create a database
-example:
-
-> you need check port of database
-
-> docker run --name nameOfProject -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
-
 I have my main configuration from my typescript projects
 
 ## I use Eslint and Prettier to do my script nice
@@ -67,6 +58,17 @@ install "yarn add -D ts-node-dev" to reload project, --inspect to Debbuger in Vs
   <li>"docker start (IDFromMachine || Name)" example "docker start postgres"</li>
   <li>Install Dbeaver or Postbird to check about Database projects</li>
 </ol>
+
+## To create a Docker Intance, only if need a database
+
+First run docker and use that command to create a database
+example:
+
+> you need check port of database
+
+> docker run --name nameOfProject -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
+
+> create the database in Dbeaver to do connect with nodejs
 
 # TypeORM
 
