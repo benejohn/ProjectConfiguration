@@ -86,3 +86,8 @@ Example
 
 We use "yarn typeorm migration:run" to execute the migrations in database.
 
+
+# To check about redis-cli
+
+rdcli -h HOST -p PORT -a PASSWORD
+
